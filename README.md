@@ -7,8 +7,9 @@ npm install -S get-popular-browser-info
 ```js
 import getPopularBrowserInfo from 'get-popular-browser-info'
 const popularBrowserInfo = getPopularBrowserInfo('your project name')
-then unload popularBrowserInfo object to your server
+then upload popularBrowserInfo object to your server
 ```
+if you want to use other js type, find in 'get-popular-browser-info/dist'
 
 # information
 

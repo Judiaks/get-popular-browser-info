@@ -1,14 +1,15 @@
 {
   "name": "get-popular-browser-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get popular browser information",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.js"
   ],
   "repository": {
     "type": "git",
