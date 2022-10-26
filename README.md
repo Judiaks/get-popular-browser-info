@@ -1,9 +1,11 @@
-# install
+[get-popular-browser-info] is a javascript lib for analyse your website user's browsers.It provide browser type, browser version and more popular properties, wtf it only 4 Kb.
+
+# installation
 ```js
 npm install -S get-popular-browser-info
 ```
 
-# use
+# usage
 ```js
 import getPopularBrowserInfo from 'get-popular-browser-info'
 const popularBrowserInfo = getPopularBrowserInfo('your project name')
@@ -11,11 +13,11 @@ then upload popularBrowserInfo object to your server
 ```
 if you want to use other js type, find in 'get-popular-browser-info/dist'
 
-# information
+# property
 
 | prop | example           | describe                                                       |
 |------|-------------------|----------------------------------------------------------------|
-|browserTimestamp      | 1666687780316     | get client timestamp for compare width server                  |
+|browserTimestamp      | 1666687780316     | get client timestamp for compare with server                  |
 |browserTimezoneOffset      | -480              | unit is minute,east is negative,west is positive               |
 |browserType      | "chrome"          | the last packing browser                                       |
 |browserVersion      | 96                | main browser version, not include decimal                      |
